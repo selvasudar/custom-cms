@@ -19,39 +19,6 @@ A modern Content Management System (CMS) built with React, Python (Flask), Astro
 - **File Storage**: Local `uploads` folder
 - **Styling**: Custom CSS for a clean, responsive UI
 
-## Project Structure
-my-cms/
-├── backend/                  # Flask backend for handling API requests
-│   ├── app.py                # Main Flask application
-│   ├── db.py                 # MySQL database connection
-│   └── venv/                 # Python virtual environment
-│
-├── frontend/                 # React frontend for user interface
-│   ├── src/                  
-│   │   ├── components/       # Reusable UI components
-│   │   │   ├── Login.js      # Login page
-│   │   │   ├── Signup.js     # Signup page
-│   │   │   └── CreatePost.js # Post creation page
-│   │   ├── App.js            # React router setup
-│   │   └── styles.css        # Shared CSS styles
-│   └── package.json          # React dependencies and scripts
-│
-├── astro/                    # Astro static site generator for blog posts
-│   ├── src/                  
-│   │   ├── content/          # Blog content
-│   │   │   └── posts/        # Generated Markdown files
-│   │   ├── pages/            # Astro pages
-│   │   │   └── index.astro   # Blog post list page
-│   │   └── content/config.ts # Astro content collection configuration
-│   └── package.json          # Astro dependencies
-│
-├── uploads/                   # Folder for uploaded images
-├── run-all.sh                  # Shell script to run all components (Unix)
-├── run-all.bat                 # Batch file to run all components (Windows)
-├── README.md                   # Project documentation
-
-
-
 ## Prerequisites
 
 - Python 3.8+
