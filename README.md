@@ -1,4 +1,4 @@
-# My CMS
+# Custom CMS
 A lightweight CMS with React, Flask, Astro, and MySQL. Create and view blog posts with ease.
 
 ## Features
@@ -43,7 +43,7 @@ A lightweight CMS with React, Flask, Astro, and MySQL. Create and view blog post
    MySQL (database)
 
 ## Developer
-   [Selvakumar Duraipandian](https://linkedin.com/in/selvakumarduraipandian)
+   [Selvakumar Duraipandian](https://linkedin.com/in/selvakumarduraipandian){:target="_blank" rel="noopener"}
    
 ## Notes
    Set FLASK_SECRET_KEY env var for security.
