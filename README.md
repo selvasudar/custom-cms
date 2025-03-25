@@ -27,11 +27,30 @@ A lightweight CMS with React, Flask, Astro, and MySQL. Create and view blog post
    Use run-all.sh (Unix) or run-all.bat (Windows)
 
 ## Usage
--    http://localhost:3000/ → Login/Signup
+   -    http://localhost:3000/ → Login/Signup
 
--    http://localhost:3000/create-post → Create posts
+   -    http://localhost:3000/create-post → Create posts
  
--    http://localhost:3000/blogs/ → View posts
+   -    http://localhost:3000/blogs/ → View posts
 
+## Tech
+   React (frontend)
+   
+   Flask (backend + proxy)
+   
+   Astro (static blogs)
+   
+   MySQL (database)
 
+## Developer
+   [Selvakumar Duraipandian](https://linkedin.com/in/selvakumarduraipandian)
+   
+## Notes
+   Set FLASK_SECRET_KEY env var for security.
 
+   Rebuild Astro after new posts:
+
+   ```bash
+   cd astro  
+   npm run build  
+   mv dist/* ../backend/static/blogs/
