@@ -19,5 +19,19 @@ A lightweight CMS with React, Flask, Astro, and MySQL. Create and view blog post
     pip install -r requirements.txt
 3. **Frontend:**
      ```bash
-        cd frontend  
-        npm install  
+     cd frontend  
+     npm install
+4. **MySQL:**
+    Set up my_cms database (see backend/db.py)
+5. Run:
+   Use run-all.sh (Unix) or run-all.bat (Windows)
+
+## Usage
+-    http://localhost:3000/ → Login/Signup
+
+-    http://localhost:3000/create-post → Create posts
+ 
+-    http://localhost:3000/blogs/ → View posts
+
+
+
