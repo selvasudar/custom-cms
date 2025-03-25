@@ -11,3 +11,13 @@ A lightweight CMS with React, Flask, Astro, and MySQL. Create and view blog post
 1. **Clone:**  
    ```bash
    git clone "https://github.com/selvasudar/custom-cms"
+2. **Backend:**
+    ```bash
+    cd backend  
+    python -m venv venv  
+    source venv/bin/activate  
+    pip install -r requirements.txt
+3. **Frontend:**
+     ```bash
+        cd frontend  
+        npm install  
